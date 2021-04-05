@@ -8,10 +8,10 @@ if(isset($_POST['sub'])){
    if(mysqli_num_rows($qu)>0){
       $f= mysqli_fetch_assoc($qu);
       $_SESSION['id']=$f['id'];
-      header ('location:home.php');
+      header ('location: ../dashboard/iframe.html');
    }
    else{
-       echo 'Nome de usuario ou senha não exintem';
+       echo 'Nome de usuario ou senha não existem';
    }
   
 }
