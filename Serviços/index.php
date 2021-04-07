@@ -82,7 +82,7 @@ if(isset($_POST['sub'])){
 <section id="pricing" class="margintop60 ow-pt-columns-atom">
 	<div class="container">
 		<div class="sow-headline">
-			<h1><b>Serviços</b></h1>
+			<h1><b>Planos e Serviços</b></h1>
 		</div>
 		<br/>			
 		<!-- #1 -->

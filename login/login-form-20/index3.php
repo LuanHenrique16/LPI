@@ -36,7 +36,7 @@ if(isset($_POST['sub'])){
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-		      	<h3 class="mb-4 text-center">Ja possui uma conta?</h3>
+		      	<h3 class="mb-4 text-center">Crie uma conta</h3>
 		      	<form method="POST" class="signin-form">
                     <div class="form-group">
                         <input name="username" type="text" class="form-control" placeholder="Username" required>
@@ -54,13 +54,16 @@ if(isset($_POST['sub'])){
                             <label class="checkbox-wrap checkbox-primary">Lembrar de mim
                                         <input type="checkbox" checked>
                                         <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <div class="w-50 text-md-right">
-                                        <a href="#" style="color: #fff">Esqueci a senha</a>
-                                    </div>
-                    </div>
-	          </form>
+                            </label>
+                            </div>                          
+                            <div class="w-50 text-md-right">
+                                <a href="#" style="color: #fff">Esqueci a senha</a>
+                        </div>                       
+                    </div>    
+                    <td>								
+						<a href= "../index.php"> Home</a>						
+					</td>                    
+	            </form>
 	          <p class="w-100 text-center">&mdash; Ou registr-se com &mdash;</p>
 	          <div class="social d-flex text-center">
 	          	<a href="https://www.facebook.com" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> Facebook</a>

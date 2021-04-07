@@ -1,14 +1,21 @@
 <?php
 include'connect.php';
+
+
 if(isset($_POST['sub'])){
+	
+	
     $u=$_POST['user'];
     $p=$_POST['pass'];
-    $s= "select * from reg where username='$u' and password= '$p'";   
+    $s= "select * from reg where username='$u' and password='$p'";   
+    // $s= "select * from reg where username='$u' and pass";   
+    // $s= "select * from reg";   
    $qu= mysqli_query($con, $s);
+   
    if(mysqli_num_rows($qu)>0){
       $f= mysqli_fetch_assoc($qu);
       $_SESSION['id']=$f['id'];
-      header ('location: ../dashboard/iframe.html');
+      header ('location: reg.php');
    }
    else{
        echo 'Nome de usuario ou senha não existem';
@@ -59,7 +66,7 @@ if(isset($_POST['sub'])){
 					<li><a href="../dashboard/iframe.html">Home</a></li>
 					<li><a href="../dashboard/index3.html">Sobre</a></li>
 					<li><a href="../Serviços/index.php">Serviços</a></li>
-					<li><a href="#pricing">Planos</a></li>
+					<li><a href="../Serviços/index.php">Planos</a></li>
 					<li><a href="#blog">Blog</a></li>
 					<li><a href="#contact">Contato</a></li>
 					<li style="background: rgba(255, 255, 0, 0.51);"><a target="_blank" href="https://www.wowthemes.net/themes/expertum/">WP Version</a></li>
@@ -78,47 +85,48 @@ if(isset($_POST['sub'])){
 <section id="home" style="padding:160px 0;background-image: url(https://unsplash.it/1324/683?random=0); background-position: center; background-repeat: no-repeat;background-size: cover;background-attachment:fixed;">
 	<div class="container">
 		<div class="textwidget">
-			<h1 class="toptitle"> <font color = #02ff6d> GUIANDO NA<br/> TECNOLOGIA <br/><br/><i class="fa fa-star roundicon"></i>
-			</h1>								
+				<h1 class="toptitle"> <font color = #02ff6d> GUIANDO NA<br/> TECNOLOGIA <br/><br/><i class="fa fa-star roundicon"></i>
+				</h1>								
 			<div class="contactstyle topform">										
-			<form method="POST" enctype="multipart/form-data">
-            <table>
-                
-                <tr>
-                    <td>
-                        Nome
-                        <input type="text" name="user">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Senha
-                        <input type="password" name="pass">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="submit" name="sub" value="submit">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href= "login-form-20/index3.php"> Registrar</a>
-						<br>
-						<a href= "../dashboard/iframe.html"> Home</a>
-                    
-                    </td>
-                </tr>
-            </table>
-				<div class="done">
-					<div class="alert alert-success">						
-						<button type="button" class="close" data-dismiss="alert">×</button>			
-						Sua mensagem foi enviada. Obrigado!
-					</div>
-				</div>
-			</div>								
+				<form method="POST" enctype="multipart/form-data">
+					<table>
+						
+						<tr>
+							<td>
+								Nome
+								<input type="text" name="user">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								Senha
+								<input type="password" name="pass">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="submit" name="sub" value="submit">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href= "login-form-20/index3.php"> Registrar</a>
+								<br>
+								<a href= "../dashboard/iframe.html"> Home</a>
+							
+							</td>
+						</tr>
+					</table>
+						<div class="done">
+							<div class="alert alert-success">						
+								<button type="button" class="close" data-dismiss="alert">×</button>			
+								Sua mensagem foi enviada. Obrigado!
+							</div>
+						</div>
+                </form>
+			</div>		            					
 		</div>
-		</div>
+	</div>
 </section>
 
 <!-- ABOUT
