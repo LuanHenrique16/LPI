@@ -57,11 +57,11 @@ if(isset($_POST['sub'])){
                             </label>
                             </div>                          
                             <div class="w-50 text-md-right">
-                                <a href="#" style="color: #fff">Esqueci a senha</a>
+                               
                         </div>                       
                     </div>    
                     <td>								
-						<a href= "../index.php"> Home</a>						
+						<a href= "../index.php"> Fazer Login</a>						
 					</td>                    
 	            </form>
 	          <p class="w-100 text-center">&mdash; Ou registr-se com &mdash;</p>

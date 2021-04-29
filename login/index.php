@@ -67,7 +67,7 @@ if(isset($_POST['sub'])){
 					<li><a href="../dashboard/index3.html">Sobre</a></li>
 					<li><a href="../Serviços/index.php">Serviços</a></li>
 					<li><a href="../Serviços/index.php">Planos</a></li>
-					<li><a href="#blog">Blog</a></li>
+					<li><a href="../Blog/index.php">Blog</a></li>
 					<li><a href="#contact">Contato</a></li>
 					<li style="background: rgba(255, 255, 0, 0.51);"><a target="_blank" href="https://www.wowthemes.net/themes/expertum/">WP Version</a></li>
 				</ul>
@@ -110,9 +110,10 @@ if(isset($_POST['sub'])){
 						</tr>
 						<tr>
 							<td>
-								<a href= "login-form-20/index3.php"> Registrar</a>
+							    <a href= "login-form-20/index3.php"> Esqueci a Senha</a>									
 								<br>
-								<a href= "../dashboard/iframe.html"> Home</a>
+								<a href= "login-form-20/index3.php"> Registrar</a>
+														
 							
 							</td>
 						</tr>
@@ -141,13 +142,17 @@ if(isset($_POST['sub'])){
 		<br/>
 		<div class="w960 text-center">
 		<p>
-			 Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculusmus. Nulla dui. Fusce feugiat. Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes.
+		Missão:
+        Garantir que bons profissionais possuam oportunidades rápidas de trabalho, e que clientes necessitados de ajuda a recebam.
+
 		</p>
 		<p>
-			Fusce feugiat Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculusmus. Nulla dui. Fusce feugiat. Fusce feugiat Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculusmus. Nulla dui. Fusce feugiat.
+		Visão:
+        Sempre providenciar que clientes possuam o melhor atendimento e a melhor solução, também que profissionais sejam  merecidamente recompensados por bons trabalhos.
 		</p>
 		<p>
-			Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculusmus. Nulla dui. Fusce feugiat. Fusce feugiat Praesent vestibulum aenean nonummy hendrerit mauris. Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculusmus.
+		Valores:
+        Cremos que quem se esforça para fazer o melhor deva ter mais oportunidades, desta forma quem for melhor avaliado será divulgado com mais frequência em nosso aplicativo, assim sendo justo com aqueles que se empenham e dedicam-se.
 		</p>
 		</div>
 							
@@ -269,16 +274,16 @@ if(isset($_POST['sub'])){
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<h3>01. Central Processing</h3>
+				<h3>01. Criação de sites </h3>
 				 Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-				<h3>02. Real Schemas</h3>
+				<h3>02. Ajuda tecnológica em geral</h3>
 				 Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
 				
 			</div>
 			<div class="col-md-6">
-				<h3>03. Data Cover</h3>
+				<h3>03. Oportunidades de Emprego</h3>
 				 Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-				<h3>04. Time Management</h3>
+				<h3>04. Prestação de Serviços</h3>
 				 Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
 				
 			</div>
